@@ -1,0 +1,24 @@
+{
+  "name": "nasa-hackaton",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egnatyuk/pab4mine-nasa-hackathon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/egnatyuk/pab4mine-nasa-hackathon/issues"
+  },
+  "homepage": "https://github.com/egnatyuk/pab4mine-nasa-hackathon#readme",
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}

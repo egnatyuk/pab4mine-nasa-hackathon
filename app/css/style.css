@@ -1,0 +1,15 @@
+canvas#luxChart {
+	display: inline-block;
+}
+
+h1{
+	font-size: 72px;
+}
+
+h2{
+	font-size: 50px;
+}
+
+div.label {
+	text-align: right;
+}
