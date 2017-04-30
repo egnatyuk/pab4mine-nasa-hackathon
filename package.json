@@ -8,14 +8,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chart.js": "^2.5.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/egnatyuk/pab4mine-nasa-hackathon.git"
-  },
-  "bugs": {
-    "url": "https://github.com/egnatyuk/pab4mine-nasa-hackathon/issues"
+    "chart.js": "^2.5.0",
+    "serialport": "^4.0.7"
   },
   "homepage": "https://github.com/egnatyuk/pab4mine-nasa-hackathon#readme",
   "devDependencies": {},

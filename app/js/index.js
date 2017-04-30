@@ -1,4 +1,5 @@
 var Chart = require('chart.js')
+var SerialPort = require("serialport").SerialPort
 
 var temp = document.getElementById("tempChart").getContext('2d');
 
@@ -194,3 +195,20 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min)) + min;
 }
+
+
+var serialport = new SerialPort("COM4", {
+  baudRate: 9600,
+  dataBits: 8,
+  parity: 'none',
+  stopBits: 1,
+  flowControl: false
+});
+
+serialport.on('open', function () {
+  console.log('Puerto Abierto');
+});
+
+serialport.on('data', function(data) {
+  console.log(data.toString());
+});
